@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GearView">
+        <attr name="gearLength" format="dimension"/>
+        <attr name="gearToothCount" format="integer"/>
+        <attr name="gearColor" format="color"/>
+        <attr name="gearDirection" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+        </attr>
+        <attr name="gearDegreePerSecond" format="float"/>
+        <attr name="gearStartDegree" format="float"/>
+        <attr name="gearStrokeWidth" format="float"/>
+        <attr name="gearStrokeColor" format="color"/>
+        <attr name="gearShowSideHole" format="boolean"/>
+    </declare-styleable>
+</resources>
