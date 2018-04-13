@@ -13,5 +13,6 @@
         <attr name="gearStrokeWidth" format="float"/>
         <attr name="gearStrokeColor" format="color"/>
         <attr name="gearShowSideHole" format="boolean"/>
+        <attr name="gearShowCenterHole" format="boolean"/>
     </declare-styleable>
 </resources>
