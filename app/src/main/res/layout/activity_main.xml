@@ -7,110 +7,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <cn.xuzhijun.xwatch.GearView
-        android:id="@+id/gearView1"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:gearColor="#f9e431"
-        app:gearDegreePerSecond="30"
-        app:gearLength="4dp"
-        app:gearShowSideHole="false"
-        app:gearStrokeColor="#a1ffe5"
-        app:gearToothCount="12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:gearColor="#a9ff6f00"
+        app:gearDegreePerSecond="10"
+        app:gearDirection="left"
+        app:gearLength="18dp"
+        app:gearStrokeColor="#c0000000"
+        app:gearStrokeWidth="1dp"
+        app:gearToothCount="60"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"/>
-
-
-    <cn.xuzhijun.xwatch.GearView
-        android:id="@+id/gearView4"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginBottom="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        app:gearColor="#c94444"
-        app:gearDegreePerSecond="6"
-        app:gearDirection="left"
-        app:gearLength="4dp"
-        app:gearStartDegree="3"
-        app:gearStrokeColor="@color/colorPrimaryDark"
-        app:gearToothCount="60"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
-
-    <cn.xuzhijun.xwatch.GearView
-        android:id="@+id/gearView3"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:gearColor="#5821ff"
-        app:gearDegreePerSecond="6"
-        app:gearDirection="left"
-        app:gearLength="5dp"
-        app:gearShowSideHole="false"
-        app:gearStrokeColor="@color/colorPrimaryDark"
-        app:gearToothCount="7"
-        app:layout_constraintBottom_toBottomOf="@+id/gearView4"
-        app:layout_constraintEnd_toEndOf="@+id/gearView4"
-        app:layout_constraintStart_toStartOf="@+id/gearView4"
-        app:layout_constraintTop_toTopOf="@+id/gearView4"/>
-
-
-    <cn.xuzhijun.xwatch.GearView
-        android:id="@+id/gearView5"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:gearColor="#00ffffff"
-        app:gearDegreePerSecond="1"
-        app:gearLength="5dp"
-        app:gearShowCenterHole="false"
-        app:gearShowSideHole="false"
-        app:gearStrokeColor="@color/colorPrimaryDark"
-        app:gearToothCount="7"
-        app:layout_constraintBottom_toBottomOf="@+id/gearView2"
-        app:layout_constraintEnd_toEndOf="@+id/gearView2"
-        app:layout_constraintStart_toStartOf="@+id/gearView2"
-        app:layout_constraintTop_toTopOf="@+id/gearView2"/>
-
-
-    <cn.xuzhijun.xwatch.GearView
-        android:id="@+id/gearView6"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="16dp"
-        app:gearColor="#00ffffff"
-        app:gearDegreePerSecond="0.1"
-        app:gearDirection="left"
-        app:gearLength="6dp"
-        app:gearShowSideHole="false"
-        app:gearStartDegree="2.55"
-        app:gearStrokeColor="@color/colorPrimaryDark"
-        app:gearToothCount="70"
-        app:layout_constraintBottom_toBottomOf="@+id/gearView5"
-        app:layout_constraintStart_toStartOf="@+id/gearView5"
-        app:layout_constraintTop_toTopOf="@+id/gearView5"/>
-
-    <cn.xuzhijun.xwatch.GearView
-        android:id="@+id/gearView2"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="16dp"
-        app:gearColor="#00ffffff"
-        app:gearDegreePerSecond="1"
-        app:gearLength="5dp"
-        app:gearShowSideHole="false"
-        app:gearStartDegree="7"
-        app:gearStrokeColor="@color/colorPrimaryDark"
-        app:gearToothCount="42"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/gearView3"
-        app:layout_constraintStart_toStartOf="@+id/gearView3"
-        app:layout_constraintTop_toTopOf="@+id/gearView3"
-        app:layout_constraintVertical_bias="0.0"/>
 
 
 </android.support.constraint.ConstraintLayout>

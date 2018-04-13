@@ -10,7 +10,7 @@
         </attr>
         <attr name="gearDegreePerSecond" format="float"/>
         <attr name="gearStartDegree" format="float"/>
-        <attr name="gearStrokeWidth" format="float"/>
+        <attr name="gearStrokeWidth" format="dimension"/>
         <attr name="gearStrokeColor" format="color"/>
         <attr name="gearShowSideHole" format="boolean"/>
         <attr name="gearShowCenterHole" format="boolean"/>
